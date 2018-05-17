@@ -26,7 +26,8 @@
                 "vdhoangson\\Theme\\ThemeServiceProvider"
             ],
             "aliases": {
-                "Theme": "vdhoangson\\Theme\\Facades\\Theme"
+                "Theme": "vdhoangson\\Theme\\Facades\\Theme",
+                "Breadcrumb": "vdhoangson\\Theme\\Facades\\Breadcrumb"
             }
         }
     },

@@ -33,12 +33,6 @@ class ThemeServiceProvider extends ServiceProvider {
 
         $this->app['router']->aliasMiddleware('VSThemeFront', Middleware\FrontMiddleware::class);
         $this->app['router']->aliasMiddleware('VSThemeBack', Middleware\BackMiddleware::class);
-
-         /* Register Alias */
-        $alias = AliasLoader::getInstance();
-        $alias->alias('Theme', Facades\Theme::class);
-        $alias->alias('Breadcrumb', Facades\Breadcrumb::class);
-        
     }
 
     /**
